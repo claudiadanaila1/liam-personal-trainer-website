@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*----------------------------background-colors*/
+
+.bg-color-nav {
+    background-color:#08d69fcf;
+}
+
+.bg-color-footer{
+   background-color:#08d69fcf; 
+}
+
+/*-------------------------------Navigation bar*/
+
+nav {
+    margin:0;
+    padding:0;
+    min-height: 120px;
+}
+
+.logoname {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color:#f8f9fa;
+}
+
+.nav-menulist .navlist {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    font-size:25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#f8f9fa;
+    word-spacing: 35px;
+}
+
+li a .navlist:hover {
+    color:rgba(0,0,0,1);
+    transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+
+/*-------------------------------Footer */
+footer{
+    margin:0;
+    padding:0;
+    min-height: 100px;
+    width:100%;
+    display:inline-block;
+}
+
+.footer-title {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: left;
+    color:#f8f9fa;
+}
+
+ .footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align:left;
+    color:#000;
+}
+
+.link-contact{
+    text-decoration: none;
+    color:#f8f9fa;
+}
+
+.social-links li a i {
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    padding:12px 0;
+    margin:5px;
+    font-size:13px;
+    text-align:center;
+    line-height: 7px;
+    color:#fff;
+    background-color: #0a57d0;
+    transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color:#d00a0a;
+}
+
+ul {
+    display: inline-block;
+}
+
+.copyright {
+    margin-left:10px;
+    font-family: "Exo" sans-serif;
+    font-size:15px;
+    color:#f8f9fa;
+    text-decoration: none;
+}
+
+/*-----------------------------container image*/
+
+.container-image {
+    background:url(../images/pexels-photo-305239.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+    width: 100%;
+}
+
