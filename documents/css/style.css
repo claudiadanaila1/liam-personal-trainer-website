@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 
 /*----------------------------background-colors*/
 
 .bg-color-nav {
-    background-color:#08d69fcf;
+    background-color:floralwhite;
 }
 
 .bg-color-footer{
-   background-color:#08d69fcf; 
+   background-color:floralwhite; 
+}
+
+.btn-bg-color{
+    background-color: #08d69fcf;
 }
 
 /*-------------------------------Navigation bar*/
@@ -15,30 +19,33 @@
 nav {
     margin:0;
     padding:0;
-    min-height: 120px;
+    min-height: 80px;
 }
 
 .logoname {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 25px;
     text-decoration: none;
     text-align: center;
-    color:#f8f9fa;
+    text-transform: uppercase;
+    color:#000;
+    margin-left: 20px;
 }
 
 .nav-menulist .navlist {
-    font-family: "Exo", sans-serif;
-    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
     font-size:25px;
     text-decoration: none;
     text-transform: uppercase;
-    color:#f8f9fa;
+    color:#000;
     word-spacing: 35px;
+    margin-right:20px;
 }
 
 li a .navlist:hover {
-    color:rgba(0,0,0,1);
+    color:rgba(0,130, 0, 1);
     transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -52,29 +59,31 @@ footer{
     padding:0;
     min-height: 100px;
     width:100%;
-    display:inline-block;
+   
 }
 
 .footer-title {
-    font-family: "Exo", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 25px;
     text-decoration: none;
     text-align: left;
-    color:#f8f9fa;
+    color:#1da016;
+    margin:20px;
 }
 
  .footer-text {
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 18px;
     text-align:left;
     color:#000;
+    margin:15px;
 }
 
 .link-contact{
     text-decoration: none;
-    color:#f8f9fa;
+    color:#000;
 }
 
 .social-links li a i {
@@ -82,12 +91,12 @@ footer{
     height:32px;
     border-radius:50%;
     padding:12px 0;
-    margin:5px;
+    margin:15px;
     font-size:13px;
     text-align:center;
     line-height: 7px;
     color:#fff;
-    background-color: #0a57d0;
+    background-color:#555b61;
     transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -96,28 +105,273 @@ footer{
 
 .social-links li a i:hover {
     background-color:#d00a0a;
+    margin:15px;
 }
 
-ul {
-    display: inline-block;
+.social-links li {
+    display:inline;
 }
 
 .copyright {
-    margin-left:10px;
-    font-family: "Exo" sans-serif;
-    font-size:15px;
-    color:#f8f9fa;
+    margin-left:20px;
+    font-family: "Roboto" sans-serif;
+    font-size:18px;
+    color:#000;
     text-decoration: none;
+    margin:20px;
 }
 
-/*-----------------------------container image*/
+/*-----------------------------container image homepage*/
 
-.container-image {
+ .container-image {
     background:url(../images/pexels-photo-305239.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 360px;
+    min-height: 800px;
     width: 100%;
 }
 
+
+.text-program {
+ margin-top:400px;
+ margin-left:20px;
+ padding:0;
+ background-position: center;
+ background-color: rgba(25, 12, 7, 0.77);
+ border-radius: 7%;
+}
+
+
+.program-title {
+    font-family: "Roboto" , sans-serif;
+    font-weight: 500;
+    font-size:27px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    margin: 10px 5px;
+    
+}
+
+.program-text .p-text  {
+    font-family:"Roboto", sans-serif;
+    font-weight:400;
+    font-size:20px;
+    color:#1da016;
+    text-align:center;
+    margin:10px 5px;
+}
+
+
+.size {
+    color:#fff;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 400;
+    margin: 20px 125px;
+}
+
+
+/*--------------------------------container-text homepage*/
+
+.primary-text {
+    margin: 40px 5px;
+}
+
+ .txt-title {
+    margin-top:50px;
+    text-align: center;
+    font-family:"Roboto" , sans-serif;
+    font-weight:500;
+    font-size:30px;
+    color:#1da016;
+}
+ 
+ .p-text {
+    text-align: center;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 300;
+    font-size:18px;
+    color:black;
+    padding:0;
+    margin-bottom: 70px;
+}
+
+.sub-title {
+    color:#1da016;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Roboto" sans-serif;
+    font-weight: 300;
+    word-spacing: 10px;
+}
+
+.sub-text {
+    color: black;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.nutrition { 
+   margin-bottom: 30px; 
+}
+
+.exercise {
+    margin-bottom:30px;
+}
+
+.lifestyle {
+    margin-bottom: 30px;
+}
+
+.mindset {
+    margin-bottom: 30px;
+}
+
+/*--------------------------train-program homepage*/
+
+.train-program {
+    margin-top:50px;
+    background:url(../images/pexels-photo-1552242.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    min-height: 600px;
+}
+
+.train {
+    margin-top:50px;
+    padding:0;
+}
+
+.train-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size:40px;
+    color:#1da016;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.train-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size:25px;
+    color:#fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:30px;
+    padding-left: 10px;
+}
+
+ li {
+    font-family:"Roboto" sans-serif;
+    font-weight: 200;
+    font-size:20px;
+    color:#fff;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+
+/*----------------------------------Aboutpage*/
+
+.primary-info{
+    margin-top:150px;
+    margin-bottom:100px;
+    padding:15px;
+}
+
+.title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size:60px;
+    color:#1da016;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:50px;
+}
+
+ img {
+     max-width:100%;
+     height:auto;
+     display:block;
+     background-repeat: no-repeat;
+     margin:auto;
+ }
+
+.information{
+    margin:70px 20px;
+}
+
+/*-----------------------------training page*/
+
+.type-training{
+    margin:150px 50px 50px;
+    padding:0;
+}
+
+.picture img {
+    max-width:100%;
+    height:auto;
+    position:relative;
+    display: block;
+    background-position: center;
+}
+
+.training {
+    margin:20px auto;
+}
+
+.name {
+    font-family:"Roboto" sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #652802;
+    text-align: center;
+}
+
+.price {
+   font-family:"Roboto" sans-serif;
+   font-weight:300;
+   font-size:30px;
+   font-style: italic;
+   color: #5d5959;
+   text-align: justify;
+   text-transform: uppercase;
+}
+
+.disclaimer {
+   font-family:"Roboto" sans-serif;
+   font-weight:200;
+   font-size:20px;
+   font-style: italic;
+   color: #5d5959;
+   text-align: justify;
+}
+
+.description {
+    font-family:"Roboto" sans-serif;
+   font-weight:300;
+   font-size:25px;
+   color:black;
+   text-align: justify;
+}
+
+#features li {
+  font-family:"Roboto" sans-serif;
+   font-weight:300;
+   font-size:25px;
+   color:black;
+   text-align: justify;  
+}
+
+.button-join button {
+    margin: 10px auto 20px;
+}
