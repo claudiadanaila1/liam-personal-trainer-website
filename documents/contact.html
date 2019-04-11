@@ -37,8 +37,30 @@
 </nav>
    </header>
     
-    <section>
-        
+    <section class="container-fluid form-area">
+        <div class="row">
+            <div class="col">
+                <h3 class="contact-heading text-center">Get in touch</h3>
+                <h5 class="sub-text text-center">Got a question? Fill out the form below and we will be in contact with you soon.</h5>
+                <div class="center-form">
+                    <form>
+                        <label for="name">Name</label>
+                       <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                       <label for="email">Email</label>
+                       <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                       <label for="subject">Subject</label>
+                       <input type="text" name="subject" id="subjectname" class="form-control" placeholder="Subject" required/>
+                       <label for="message">Message</label>
+                       <textarea rows="4" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                       <div class="form-row text-center">
+                           <div class="col">
+                               <button type="button" class="btn btn-success btn-lg btn-bg-color size">Send!</button>
+                           </div>
+                       </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     
     <footer class="bg-color-footer">

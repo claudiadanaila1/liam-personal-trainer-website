@@ -375,3 +375,24 @@ ul {
 .button-join button {
     margin: 10px auto 20px;
 }
+
+/*-----------------------contact page*/
+
+.form-area{
+    margin-top:100px;
+}
+
+.contact-heading {
+    font-family:"Roboto" sans-serif;
+    font-weight:500;
+    font-size:60px;
+    color:#1da016;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:15px;
+}
+
+.center-form{
+    margin:0 auto;
+    max-width:70%;
+}
