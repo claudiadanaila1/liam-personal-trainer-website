@@ -126,7 +126,7 @@ footer{
 /*-----------------------------container image homepage*/
 
  .container-image {
-    background:url(../images/pexels-photo-305239.jpeg);
+    background:url(/documents/images/pexels-photo-305239.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -235,7 +235,7 @@ footer{
 
 .train-program {
     margin-top:50px;
-    background:url(../images/pexels-photo-1552242.jpeg);
+    background:url(../documents/images/pexels-photo-1552242.jpeg);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;

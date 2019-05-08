@@ -30,7 +30,7 @@ Add a section with user testimonials and before and after pictures.
 The site as it is now is clean and doesn't have many features, the user-interaction requires work; looking back at the whole development process
 I can say that I learn from it and for the next project the approach will be different.
 All the isuess I have encountered while doing this project made me think more about the importance of html structure and how it affects the styling
-of the elements.
+of the elements therefore I will pay extra attention at the html structure and at user experience.
 
 
 ## Technologies used
