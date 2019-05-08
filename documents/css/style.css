@@ -52,8 +52,8 @@ li a .navlist:hover {
   -o-transition: all 0.35s ease-in-out;
 }
 
-  button .navbar-toggler {
-    background-color: dimgrey;
+ .navbar-toggler {
+    background-color:#dee2e6 ;
 }
 
 /*-------------------------------Footer */
