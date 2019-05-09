@@ -60,7 +60,9 @@ On click the submit buttons an alert messages will appear; this makes the websit
 
 ## Deployment
 
-This site is deployed on GitHub pages and uses the master branch and it updates every time there is a new push to the repository.
+This site is deployed on GitHub pages and uses the master branch and it updates every time there is a new push to the repository.  
+Live demo of the site can be found on https://claudiadanaila1.github.io/liam-personal-trainer-website/ .
+
 
 ## Credit
 
