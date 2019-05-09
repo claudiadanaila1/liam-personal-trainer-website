@@ -126,7 +126,7 @@ footer{
 /*-----------------------------container image homepage*/
 
  .container-image {
-    background:url(/documents/images/pexels-photo-305239.jpeg);
+    background:url(../documents/images/pexels-photo-305239.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
